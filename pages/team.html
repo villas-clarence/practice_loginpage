@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Team 3nity</title>
+    <link rel="stylesheet" href="../styles/team.css">
+</head>
+<body>
+    <a href="#" class="logout-btn" onclick="logout()">Logout</a>
+
+    <div class="header">
+        <h1>3nity</h1>
+        <p>Meet Our Team</p>
+    </div>
+
+    <div class="team-container">
+        <div class="team-card">
+            <div class="image-placeholder" id="image1">
+                <img id="img1" style="display: none;">
+            </div>
+            <h2>Jasmine Robelle De Leon</h2>
+            <div class="role">Team Member</div>
+            <div class="description">Dedicated and passionate team member contributing to the success of Team 3nity.</div>
+            <button class="upload-btn" onclick="document.getElementById('file1').click()">Upload Photo</button>
+            <input type="file" id="file1" class="file-input" accept="image/*" onchange="handleImageUpload(event, 1)">
+        </div>
+
+        <div class="team-card">
+            <div class="image-placeholder" id="image2">
+                <img id="img2" style="display: none;">
+            </div>
+            <h2>Clarence Villas</h2>
+            <div class="role">Team Member</div>
+            <div class="description">Dedicated and passionate team member contributing to the success of Team 3nity.</div>
+            <button class="upload-btn" onclick="document.getElementById('file2').click()">Upload Photo</button>
+            <input type="file" id="file2" class="file-input" accept="image/*" onchange="handleImageUpload(event, 2)">
+        </div>
+
+        <div class="team-card">
+            <div class="image-placeholder" id="image3">
+                <img id="img3" style="display: none;">
+            </div>
+            <h2>Krislyn Francisco</h2>
+            <div class="role">Team Member</div>
+            <div class="description">Dedicated and passionate team member contributing to the success of Team 3nity.</div>
+            <button class="upload-btn" onclick="document.getElementById('file3').click()">Upload Photo</button>
+            <input type="file" id="file3" class="file-input" accept="image/*" onchange="handleImageUpload(event, 3)">
+        </div>
+    </div>
+
+    <script src="../scripts/team.js"></script>
+</body>
+</html>
