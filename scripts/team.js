@@ -3,7 +3,7 @@ const teamMembers = {
         name: "Jasmine Robelle De Leon",
         role: "Project Manager/Developer",
         description: "Oversees the entire project, ensuring all tasks are completed on time and aligned with the team's objectives.",
-        image: ""
+        image: "../jas.jpg"
     },
     2: {
         name: "Clarence Villas",

@@ -94,8 +94,8 @@ body {
 
 .modal-content {
     background: pink;
-    margin: 5% auto;
-    padding: 40px;
+    margin: 3% auto;  /* Reduced from 5% to 3% to move content up */
+    padding: 30px 40px 40px;  /* Reduced top padding from 40px to 30px */
     border-radius: 20px;
     width: 90%;
     max-width: 500px;
